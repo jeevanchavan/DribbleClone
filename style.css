@@ -67,8 +67,9 @@ main header.navbar .nav-right button {
   border: none;
   background-color: #0d0c22;
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 0.8rem 2rem;
   border-radius: 30px;
+  font-weight: 700;
 }
 main header.navbar .nav-right .sign-up {
   display: none;
@@ -80,5 +81,50 @@ main header.navbar .nav-right .sign-up {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+  }
+  main header.navbar .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  main header.navbar .top .nav-left {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  main header.navbar .top .nav-left .icon {
+    display: none;
+  }
+  main header.navbar .top .nav-left .logo img {
+    width: 6rem;
+    height: 6rem;
+  }
+  main header.navbar .top .menu {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    padding: 1rem 0rem;
+  }
+  main header.navbar .top .menu a {
+    color: #0d0c22;
+    text-decoration: none;
+    font-weight: 600;
+  }
+  main header.navbar .nav-right {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+  main header.navbar .nav-right .sign-up {
+    display: flex;
+  }
+  main header.navbar .nav-right .sign-up button {
+    background-color: #fff;
+    color: #0d0c22;
+  }
+  main header.navbar .nav-right button {
+    padding: 1rem 1.5rem;
+    font-size: 0.8rem;
   }
 }/*# sourceMappingURL=style.css.map */
