@@ -76,6 +76,9 @@ main header.navbar .nav-right .sign-up {
 }
 
 @media (min-width: 960px) {
+  main {
+    padding: 0rem 1rem;
+  }
   main header.navbar {
     display: flex;
     flex-direction: row;
@@ -86,29 +89,45 @@ main header.navbar .nav-right .sign-up {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    padding: 1rem;
   }
   main header.navbar .top .nav-left {
     display: flex;
     flex-direction: row;
     align-items: center;
+    gap: 1.5rem;
   }
   main header.navbar .top .nav-left .icon {
     display: none;
   }
+  main header.navbar .top .nav-left .logo {
+    gap: 1rem;
+    margin-right: 3rem;
+  }
   main header.navbar .top .nav-left .logo img {
-    width: 6rem;
-    height: 6rem;
+    width: 4rem;
+    height: 4rem;
+  }
+  main header.navbar .top .nav-left .logo img:hover {
+    opacity: 0.7;
+    cursor: pointer;
+    transition: all 0.1s ease-in-out;
   }
   main header.navbar .top .menu {
     display: flex;
     flex-direction: row;
     gap: 2rem;
-    padding: 1rem 0rem;
+    padding: 1.5rem 0rem;
   }
   main header.navbar .top .menu a {
+    font-size: 0.8rem;
     color: #0d0c22;
     text-decoration: none;
     font-weight: 600;
+  }
+  main header.navbar .top .menu a:hover {
+    opacity: 0.6;
+    transition: all 0.1s ease-in-out;
   }
   main header.navbar .nav-right {
     display: flex;
@@ -124,7 +143,12 @@ main header.navbar .nav-right .sign-up {
     color: #0d0c22;
   }
   main header.navbar .nav-right button {
-    padding: 1rem 1.5rem;
+    padding: 0.9rem 1.4rem;
     font-size: 0.8rem;
+    cursor: pointer;
+  }
+  main header.navbar .nav-right button:hover {
+    opacity: 0.6;
+    transition: all 0.1s ease-in-out;
   }
 }/*# sourceMappingURL=style.css.map */
